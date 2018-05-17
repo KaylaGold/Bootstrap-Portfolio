@@ -77,6 +77,10 @@ h1 {
 
 }
 
+h2 {
+    font-size: 10px;
+}
+
 .display-left {
 
     display: inline-block;
@@ -121,14 +125,14 @@ h1 {
 
     background: #4aaaa5;
     color: white;
-    width: 250px;
+    width: 220px;
     text-align: center;
     font-size: 16px;
-    z-index: 2;
+    z-index: 2; 
     position: absolute;
     height: 50px;
     line-height: 50px;
-    bottom: 25px;
+    bottom: 20px;
     
 }
 input[type=text] {
@@ -139,7 +143,7 @@ input[type=text] {
 }
   
 textarea {
-    width: 100%;
+    width: 585px;
     height: 150px;
     padding: 12px 20px;
     box-sizing: border-box;
