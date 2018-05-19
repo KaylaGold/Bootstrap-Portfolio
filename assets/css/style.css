@@ -6,19 +6,20 @@ body {
     border-bottom: 3px solid #ddd;
     background-color: #fff;
     margin-bottom: 20px;
-    padding: 20px 0px;
+    padding: 0px 0px;
 
 
 }
 .navbar-brand{
     display: block;
     margin: 0;
-    padding: 40px 40px;
+    padding: 65px 65px;
     color: #fff !important;
     background-color: #4aaaa5;
     font-size: 30px;
     font-weight: 700;
-    
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-left: 20%;
     
 }
 .navbar-nav{
@@ -40,11 +41,11 @@ body {
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 15px;
-    margin-right: 20%;
-    margin-left: 20%;
+    margin-right: 15%;
+    margin-left: 15%;
     margin-bottom: 100px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-
+    width: 960px;
 
 }
 h1 {
@@ -81,11 +82,18 @@ h2 {
     font-size: 10px;
 }
 
+.flex-grid {
+    animation: resize 15s infinite 0s;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+
 .display-left {
 
     display: inline-block;
     position: relative;
-    float: left;
+    flex: left;
 
 }
 
@@ -93,7 +101,7 @@ h2 {
 
     display: inline-block;
     position: relative;
-    float: left;
+    flex: left;
     
 }
 
@@ -104,7 +112,7 @@ h2 {
     padding: 20px 30px 20px 0px;
     margin-right: 60px;
     margin-bottom: 45px;
-    float: left;
+    flex: left;
     
 
 
@@ -117,7 +125,7 @@ h2 {
     padding: 20px 30px 20px 0px;
     margin-right: 60px;
     margin-bottom: 45px;
-    float: left;
+    flex: left;
 
 }
 
@@ -143,7 +151,7 @@ input[type=text] {
 }
   
 textarea {
-    width: 585px;
+    width: 208%;
     height: 150px;
     padding: 12px 20px;
     box-sizing: border-box;
